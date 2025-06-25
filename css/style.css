@@ -8,7 +8,7 @@ body {
     border: 2px red solid;
     line-height: 1.5;
     color: rgb(233, 216, 216);
-    
+    font-size: 1.4rem;
    
 }
 
@@ -18,7 +18,36 @@ header {
     justify-content: space-between;
     border: red 2px solid;
     flex-wrap: wrap;
-    
+    margin: 10px;
+    padding: 20px;
+}
+
+.primary-nav {
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+
+@media (max-width:480px) {
+    .primary-nav ul {
+        flex-direction:column;
+        gap: 70px;
+        font-size: 0.8rem;
+        padding: 2px;
+        border-radius: 2px;
+    }
+}
+
+.primary-nav a {
+    text-decoration: none;
+    background-color: rgb(70, 28, 28);
+    padding: 20px;
+    border-radius: 20px;
+    border: rgb(198, 121, 50) 2px double;
+   
 }
 
 .header-img {
@@ -59,7 +88,7 @@ img {
 
 
 a {
-    color:rgb(177, 114, 81)
+    color:rgb(177, 114, 81);
 }
 
 /* focus-visible is for people tab to nagivate */
@@ -73,6 +102,20 @@ a:visted {
 section {
     margin-block: 40px;
     padding: 20px;
+}
+
+
+.extra-info {
+    background-color:rgb(106, 76, 55);
+     margin: 4px 80px;
+     padding: 4px 20px;
+     border: rgb(143, 85, 4) 2px solid;
+}
+
+.extra-info strong {
+    font-weight: 700;
+    color: rgb(207, 151, 61);
+    
 }
 
 .pri-foot {
